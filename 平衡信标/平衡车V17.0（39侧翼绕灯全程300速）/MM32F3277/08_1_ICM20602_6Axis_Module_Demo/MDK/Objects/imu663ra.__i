@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O3 --apcs=interwork --split_sections --signed_chars -I ..\CODE -I ..\USER\src -I ..\USER\inc -I ..\..\Libraries\seekfree_libraries\common -I ..\..\\Libraries\seekfree_libraries\board -I ..\..\Libraries\seekfree_libraries\system -I ..\..\Libraries\seekfree_libraries -I ..\..\Libraries\seekfree_peripheral -I ..\..\Libraries\Device\CMSIS\KEIL_Core -I ..\..\Libraries\Device\MM32F327x\Include -I ..\..\Libraries\Device\MM32F327x\HAL_Lib\Inc -I ..\MDK
+-I C:\Users\yyg\Desktop\ƽ�⳵V11.0\MM32F3277\08_1_ICM20602_6Axis_Module_Demo\MDK\RTE
+-I C:\Keil_v5\ARM\PACK\MindMotion\MM32F3270_DFP\1.0.6\Device\MM32F327x\Include
+-I C:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="518" -DMM32F3273G9P -DENABLEFSMC
+-o .\objects\imu663ra.o --omf_browse .\objects\imu663ra.crf --depend .\objects\imu663ra.d "imu663ra.c"

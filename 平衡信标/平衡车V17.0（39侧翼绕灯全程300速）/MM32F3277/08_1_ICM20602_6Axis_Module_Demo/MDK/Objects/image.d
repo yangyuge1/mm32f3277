@@ -1,0 +1,16 @@
+.\objects\image.o: ..\USER\src\image.c
+.\objects\image.o: ..\USER\inc\image.h
+.\objects\image.o: ..\..\Libraries\seekfree_peripheral\SEEKFREE_MT9V03X.h
+.\objects\image.o: ..\..\Libraries\Device\MM32F327x\HAL_Lib\Inc\hal_uart.h
+.\objects\image.o: ..\..\Libraries\Device\MM32F327x\Include\reg_uart.h
+.\objects\image.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\image.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\image.o: ..\..\Libraries\Device\MM32F327x\Include\types.h
+.\objects\image.o: ..\..\Libraries\Device\MM32F327x\HAL_Lib\Inc\hal_gpio.h
+.\objects\image.o: ..\..\Libraries\Device\MM32F327x\Include\reg_gpio.h
+.\objects\image.o: ..\..\Libraries\Device\MM32F327x\HAL_Lib\Inc\hal_exti.h
+.\objects\image.o: ..\..\Libraries\Device\MM32F327x\Include\reg_common.h
+.\objects\image.o: ..\..\Libraries\Device\CMSIS\KEIL_Core\core_cm3.h
+.\objects\image.o: ..\..\Libraries\Device\CMSIS\KEIL_Core\cmsis_compiler.h
+.\objects\image.o: ..\..\Libraries\Device\CMSIS\KEIL_Core\cmsis_armcc.h
+.\objects\image.o: ..\..\Libraries\Device\MM32F327x\Include\reg_exti.h
